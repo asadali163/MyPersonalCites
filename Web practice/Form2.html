@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="First.html" method="GET" autocomplete="on" enctype="text/plain" target="_blank">
+        <label for="textarea">Typer your message here:</label><br>
+        <textarea name="message box" id="textarea" cols="30" rows="10" required></textarea><br>  
+        <input type="submit" name="" id="">
+        <br>
+        <hr>
+
+        <!-- When use the select, also use the option element for the choices-->
+        <h3>Select your Favourite movies</h3>
+        <label for="movies">Select from these options:  </label>
+        <select name="fav-movies" id="movies" size="1" multiple><!--The size attribute is used to how many are visible in the options area-->
+            <option value="PK">PK</option>
+            <option value="Bajrangi">Bajrangi</option>
+            <option value="Kick">Kick</option>
+            <option value="Don">Don</option>
+            <option value="Dilwale" selected>Dilwale</option>
+        </select>
+
+        <hr>
+        <h5>Button tutorial</h5>
+        <button onclick="alert('How are you')">Click Me</button>
+        <br><hr>
+        <h3>Fieldset Totorial</h3>
+        <fieldset>
+            <legend>MY Personal Info</legend>
+            <label for="name">Name:&nbsp;</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email">
+        </fieldset>
+    </form>
+</body>
+</html>
