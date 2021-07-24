@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my HTML Form</h1>
+    <hr>
+
+
+    <!-- The following are the some of the attribute of the form element-->
+    <form action="First.html" target="_blank" method="GET" enctype="text/plain" autocomplete="on">
+        <label for="name">Your Name:</label>
+        <input type="text" name="YourName" id="name" value="">
+        <br>
+        <input type="submit" id="">
+        <hr>
+        <!-- in the radio button the value of the name attribute of each radio input must be same. Otherwise multiple checkboxes will be selected -->
+        <h3>Favourite Language</h3>
+        <label for="html">HTML</label>
+        <input type="radio" name="expertises" id="html" value = "html"><br>
+        <label for="css">CSS</label>
+        <input type="radio" name="expertises" id="css" value="css"><br>
+        <label for="java">JAVA</label>
+        <input type="radio" name="expertises" id="java" value="java">    
+
+        <hr>
+        <!-- in the check box the value of the name attribute may be the same or not. But its better to se different names to each checkbox-->
+        <h3>Expertise</h3>
+        <label for="html2">HTML</label>
+        <input type="checkbox" name="html" id="html2" value="html"><br>
+        <label for="css2">CSS</label>
+        <input type="checkbox" name="css" id="css2" value="css"><br>
+        <label for="java2">JAVA</label>
+        <input type="checkbox" name="java" id="java2" value="java"> 
+    </form>
+</body>
+</html>
